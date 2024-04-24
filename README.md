@@ -11,3 +11,5 @@ my endpoints at the root level itself under our web application context
 when we add below properties file the link will be http://localhost:8080/hellows/
 server.servlet.context-path=/hellows
 cxf.path=/
+
+Mark a class with @WebService to make it a soap endpoint and mark a method with @WebMethod
